@@ -11,6 +11,10 @@ package io.github.arthursiq5.dio.desafio_poo.src;
 public abstract class Conteudo {
     protected String titulo;
     protected String descricao;
+    protected static final double XP_PADRAO = 10d;
+    
+    public abstract double calcularXp();
+
 
     public String getDescricao() {
         return this.descricao;
