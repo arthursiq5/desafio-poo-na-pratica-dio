@@ -10,6 +10,11 @@ package io.github.arthursiq5.dio.desafio_poo.src;
  */
 public class Curso extends Conteudo {
     private int cargaHoraria;
+    
+    @Override
+    public double calcularXp() {
+        return Curso.XP_PADRAO * cargaHoraria;
+    }
 
     public int getCargaHoraria() {
         return cargaHoraria;

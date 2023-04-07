@@ -9,5 +9,8 @@ package io.github.arthursiq5.dio.desafio_poo.src;
  * @author arthur
  */
 public class Mentoria extends Conteudo {
-    
+    @Override
+    public double calcularXp() {
+        return Mentoria.XP_PADRAO + 20d;
+    }
 }
