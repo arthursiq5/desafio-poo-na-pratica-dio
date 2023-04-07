@@ -8,6 +8,6 @@ package io.github.arthursiq5.dio.desafio_poo.src;
  *
  * @author arthur
  */
-public class Mentoria {
+public class Mentoria extends Conteudo {
     
 }
